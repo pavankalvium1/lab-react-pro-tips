@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+    color: black;
+}
+.formBox{
+  border: 2px black solid;
+  background-color: white;
+  height: 530px;
+  width: 300px;
+  position: relative;
+  top: 50px;
+  left: 600px;
+}
+.inputBox{
+  background-color: #eeecef;
+  height: 30px;
+  width: 250px;
+  position: relative;
+  left: 7%;
+  top: 30px;
+  border-radius: 5px;
+  color: black;
+}
+.inputBoxes{
+  background-color: white;
+  display: grid;
+}
+.resigterButton{
+  background-color: #40a444;
+  color: white;
+  left: 8%;
+  top: 0px;
+  position: relative;
+  font-size: 20px;
+  width: 250px;
+  height: 50px;
+}
+.error{
+  text-align: center;
+  color: red;
+  position: relative;
+}

@@ -1,0 +1,26 @@
+body{
+  background-color: rgb(126, 9, 9);
+  color: rgb(223, 0, 0);
+}
+nav{
+  position: absolute;
+  top: 0;
+  font-size: 40px;
+  background-color: #0dfbff;
+  color: rgb(93, 2, 2);
+  height: 80px;
+  width: 100%;  
+}
+.links{
+  position: absolute;
+  right: 100px;
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(2,200px);
+}
+nav Link{
+  color: rgb(0, 208, 255);
+}
+.Link{
+  color: rgb(255, 0, 0);
+}
